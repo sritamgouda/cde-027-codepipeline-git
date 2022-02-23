@@ -55,6 +55,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>cde-027-code-pipeline-git</finalName>
 	</build>
 
 </project>
