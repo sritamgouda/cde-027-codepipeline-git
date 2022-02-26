@@ -20,6 +20,11 @@ public class CdeAwsCodepipelineGitApplication {
    {
 	   return"code pipeline";
    }
+   @GetMapping("/sritam")
+   public String sritam()
+   {
+	   return"sritam good morning";
+   }
    
    @PostMapping("/hello")
    public String sayhello(@RequestBody String name)
